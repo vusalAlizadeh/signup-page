@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  width: 250px;
+  height: auto;
+  border-radius: 5px;
+  -webkit-box-shadow: -1px -2px 22px -2px rgba(61, 57, 61, 0.38);
+  -moz-box-shadow: -1px -2px 22px -2px rgba(61, 57, 61, 0.38);
+  box-shadow: -1px -2px 22px -2px rgba(61, 57, 61, 0.38);
+  padding: 5px 0.5rem;
+}
+
+.box-header {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.233);
+
+  opacity: 0.9;
+}
+
+.box-header-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box-header-title h2 {
+  font-size: 17px;
+}
+.box-header p {
+  color: #606770;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-size: 9px;
+}
+
+.box-content {
+  margin-top: 1rem;
+}
+input {
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 3px;
+  font-size: 8px;
+  padding: 5px;
+}
+
+.firstlastname {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 0.4rem;
+}
+.firstlastname input {
+  flex: 1;
+}
+.firstlastname input:first-child {
+  margin-right: 6px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  margin-bottom: 0.4rem;
+}
+
+label {
+  font-size: 7px;
+  opacity: 0.7;
+}
+
+.birthday-selects {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.birthday-selects select {
+  flex: 1;
+  font-size: 7px;
+  font-weight: 400;
+  padding: 4px;
+  outline: none;
+}
+
+.birthday-selects select:not(:last-child) {
+  margin-right: 5px;
+}
+.gender-inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gender-inputs span {
+  border: 1px solid gray;
+  border-radius: 3px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px;
+}
+.gender-inputs span:not(:last-child) {
+  margin-right: 5px;
+}
+
+.gender-inputs span input {
+  width: 8px;
+}
+
+.box-text:first-child {
+  margin-top: 0.2rem;
+}
+.box-text {
+  font-size: 6px;
+  margin: 0.4rem 0;
+  opacity: 0.7;
+}
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.7rem;
+  margin-top: 0.5rem;
+}
+.box-btn {
+  background-color: #00a400;
+  border: none;
+  border-radius: 4px;
+  box-shadow: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  height: 20px;
+  padding: 0 34px;
+}
